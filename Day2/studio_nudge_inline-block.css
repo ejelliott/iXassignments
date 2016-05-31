@@ -1,0 +1,71 @@
+.row {
+	border-bottom: 1px solid gray;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	height: 70px;
+}
+
+.header {
+	display: inline-block;
+	padding-top: 20px;
+
+}
+
+.nav {
+	display: inline-block; 
+	height: 100px; 
+	padding-right: 50px; 
+
+}
+
+.logo {
+	padding-right: 500px;
+}
+
+
+.media-links{
+	padding-left: 300px;
+	 
+}
+.media-links img{
+	display: inline;
+	height: 15px;
+	width: 15px;
+}
+
+.large-photo {
+	width: 1176px; 
+	margin: auto; 
+	padding-bottom: 10px; 
+}
+
+.photo2 {
+	display: inline-block;
+}
+
+.jeans {
+	padding-left: 15px; 
+}
+
+.photo4 {
+	display: inline-block;
+}
+
+.bakery {
+	padding-left: 15px; 
+}
+
+.image-line2 {
+	width: 1176px; 
+	margin: auto;
+}
+.image-line3 {
+	width: 1176px; 
+	margin: auto;
+}
+
+.footer {
+	text-align: center;
+	border-top: 1px solid gray;
+	margin-top: 50px;
+}
