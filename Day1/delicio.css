@@ -81,21 +81,22 @@ h3{
 	font-style: cursive;
 	color:white;
 }
-hr{
+#intro hr{
 	position: absolute;
 	top:300px;
 }
-#ads {
-	margin-left: 5%;
-	padding-bottom: 50px;
-}
-#ads li img{
-	width: 600px;
-}
-#ads li {
+#info {
 	display: inline;
-	float: center;
+	margin-top: 10px;
+
 }
+#info li{
+	display: inline;
+	color: white;
+	font-family: Arial;
+	margin-right: 240px;
+}
+
 #footer {
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -104,10 +105,10 @@ hr{
 	clear: both;
 	width: 95%;
 	margin-left: 2%;
-	font-family: Times, sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 14px;
-	text-align: center;
-	color: black;
+	text-align: left;
+	color: #4f4f4f;
 	border-top: 1px solid #4f4f4f;
 }
 body {
