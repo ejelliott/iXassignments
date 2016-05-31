@@ -1,0 +1,89 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica;
+	color:white;
+}
+
+.header {
+	position:fixed;
+	background-color: FloralWhite;
+	width:100%;
+	margin-bottom: 20px;
+}
+
+.logo {
+	font-size: 30px;
+	font-family: cursive;
+	color: brown;
+}
+
+.navbar {
+	color: black;
+}
+
+.shopping img{
+	width: 15px;
+	height: 15px;
+}
+
+.image {
+	clear:both;
+	padding-top:200px;
+	background-image: url("images/restaurant_2.jpg");
+	background-color: gray;
+	text-align: center;
+	padding-bottom: 200px;
+}
+
+.text-header {
+	color: white;
+	font-size: 40px;
+	font-family: Times;
+}
+
+.text-sub-header {
+	margin: auto;
+	width:60%;
+	border-top: 1px solid white;
+	padding-top: 20px;
+	color: white;
+	font-size: 16px;
+}
+
+.button{
+	color: white;
+	margin-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right:auto;
+	margin-left: auto;
+	width:15%;
+	background-color: orange;
+}
+
+.info {
+	background-color: gray;
+}
+
+.social-link img{
+	width: 40px;
+	height: 40px;
+}
+
+.address {
+	color:black;
+}
+
+.weekday {
+	color: black;
+}
+
+.weekend {
+	color: black;
+}
+
+.footer {
+	background-color: gray;
+}
+
