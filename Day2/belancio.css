@@ -1,0 +1,155 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+	color: white;
+	font-style: bold;
+	text-align: center;
+}
+
+.header {
+	background-color: #654321;
+	padding: 35px;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+
+.head {
+	display: inline-block;
+}
+
+.belancio {
+	float: left;
+}
+
+.navbar {
+	float: right;
+}
+
+.nav {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.image {
+	background-color: #654321;
+}
+
+.logo {
+	margin: auto;
+	width: 30%;
+	padding: 30px;
+	padding-top: 50px;
+}
+
+.logo img {
+	height: 70px;
+}
+
+.name {
+	padding: 20px;
+	padding-top: 0px;
+}
+
+.plus {
+	border: 2px solid white;
+	border-radius: 50%;
+	width: 18px;
+	margin: auto;
+	text-align: center;
+	padding: 15px;
+}
+
+.computer {
+	margin-top: -50px;
+	padding-bottom: 30px;
+}
+
+.computer img{
+	height: 600px;
+}
+
+.clients {
+	background-color: white;
+	padding: 60px;
+}
+
+.title {
+	text-align: left;
+	margin-left: 30px;
+	color: black;
+	font-size: 32px;
+	padding-bottom: 20px;
+}
+
+.client {
+	display: inline-block;
+}
+
+.statement {
+	background-color: Aquamarine;
+	padding: 50px;
+	font-size: 24px;
+}
+
+.state {
+	display: inline-block;
+}
+
+.button {
+	margin-left: 30px;
+	border: 2px solid white;
+	padding: 15px 20px;
+	font-size: 14px;
+}
+
+.footer-1 {
+	background-color: #d6d6d6;
+}
+
+.foot-1 {
+	display: inline-block;
+	text-align: left;
+	padding: 25px;
+}
+
+.belancio-2 {
+	text-align: left;
+	margin-left: -730px;
+	color: black;
+}
+
+.navbar-2 {
+	float: right;
+	color: gray;
+}
+
+.footer-2 {
+	background-color: white;
+}
+
+.foot-2 {
+	display: inline-block;
+	padding: 25px;
+	color: gray;
+}
+
+.navbar-2 {
+	display: inline-block;
+	margin-right: 81px;
+}
+
+.nav-2 {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.place-logo {
+	float: left;
+	margin-left: 101px;
+}
+
+.copyright {
+	float: right;
+	margin-right: 101px;
+}
