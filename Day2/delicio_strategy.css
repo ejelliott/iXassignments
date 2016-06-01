@@ -9,7 +9,15 @@ body {
 	position:fixed;
 	background-color: FloralWhite;
 	width:100%;
+	padding: 25px;
 	margin-bottom: 20px;
+}
+.head {
+	display: inline-block;
+}
+.nav {
+	display: inline-block;
+	margin-right: 30px;
 }
 
 .logo {
@@ -20,6 +28,7 @@ body {
 
 .navbar {
 	color: black;
+	margin-left: 500px;
 }
 
 .shopping img{
@@ -28,9 +37,11 @@ body {
 }
 
 .image {
-	clear:both;
 	padding-top:200px;
 	background-image: url("images/restaurant_2.jpg");
+	background-size: 1400px;
+	height: 350px;
+	margin-left: -40px;
 	background-color: gray;
 	text-align: center;
 	padding-bottom: 200px;
@@ -38,12 +49,14 @@ body {
 
 .text-header {
 	color: white;
-	font-size: 40px;
+	font-size: 50px;
 	font-family: Times;
+	padding-bottom: 20px;
 }
 
 .text-sub-header {
 	margin: auto;
+	padding-top: 20px;
 	width:60%;
 	border-top: 1px solid white;
 	padding-top: 20px;
@@ -62,13 +75,29 @@ body {
 	background-color: orange;
 }
 
-.info {
-	background-color: gray;
+.information {
+	background-color: #333333;
+	padding-bottom: 50px;
+}
+
+.line-1 {
+	padding-top: 70px;
+	display: inline-block;
+	margin-left: 100px;
+}
+
+p {
+	color: gray;
 }
 
 .social-link img{
-	width: 40px;
-	height: 40px;
+	width: 20px;
+	height: 20px;
+}
+
+.insta-link img{
+	width: 100px;
+	height: 100px;
 }
 
 .address {
@@ -84,6 +113,17 @@ body {
 }
 
 .footer {
-	background-color: gray;
+	background-color: #333333;
+	border-top: 1px solid gray;
+	color: gray;
+}
+
+.footer-text {
+	display: inline-block;
+	margin: 40px;
+}
+
+.credit {
+	float: right;
 }
 
