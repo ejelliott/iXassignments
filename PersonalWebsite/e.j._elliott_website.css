@@ -1,0 +1,35 @@
+h3 {
+	padding-top: 10px;
+	margin-top: 0px;
+	font-size: 18px;
+}
+.logo {
+	height: 60px;
+}
+.nav {
+	float: right;
+}
+
+.divider {
+	height:70px;
+}
+
+.drawings-h {
+	background: url(images/photo_7.jpg) no-repeat center center scroll;
+}
+
+.renders {
+	background: url(images/photo_5.jpg) no-repeat center center scroll;
+}
+
+.models {
+	background: url(images/photo_1.jpg) no-repeat center center scroll;
+}
+
+.diagrams {
+	background: url(images/photo_8.png) no-repeat center center scroll;
+}
+
+.drawings-c {
+	background: url(images/photo_9.jpg) no-repeat center center scroll;
+}
