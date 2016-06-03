@@ -29,6 +29,10 @@ body {
     font-weight: 700;
 }
 
+/*.text-vertical-center h1:hover {
+    margin-left: 200px;
+}*/
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -184,8 +188,8 @@ hr.small {
     display: table;
     width: 100%;
     height: 250px;
-    color: black;
-    /*background: url(../img/callout.jpg) no-repeat center center scroll;*/
+    color: #F5F5F5;
+    border-top: 1px solid #F5F5F5;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -229,6 +233,13 @@ hr.small {
 @media(max-width:768px) {
     .map {
         height: 75%;
+    }
+    .divider {
+        height: 30px;
+    }
+    .logo {
+        margin-top: -10px;
+        height: 50px;
     }
 }
 

@@ -14,22 +14,79 @@ h3 {
 	height:70px;
 }
 
+.explore {
+	color: white;
+	opacity: .8;
+	font-size: 16px;
+	position: fixed;
+	top: 720px;
+	right: -100px;
+	transform-origin: 100% 0%;
+	transform: translateX(-100%) rotate(90deg);
+}
+
+.arrow {
+	display: inline-block;
+}
+
+.arrow img{
+	opacity: 1;
+	height: 20px;
+	width: 20px;
+}
+
+
 .drawings-h {
-	background: url(images/photo_7.jpg) no-repeat center center scroll;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(images/photo_7.jpg) no-repeat center center scroll;
 }
 
 .renders {
-	background: url(images/photo_5.jpg) no-repeat center center scroll;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(images/photo_5.jpg) no-repeat center center scroll;
 }
 
 .models {
-	background: url(images/photo_1.jpg) no-repeat center center scroll;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(images/photo_1.jpg) no-repeat center center scroll;
 }
 
 .diagrams {
-	background: url(images/photo_8.png) no-repeat center center scroll;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(images/photo_8.png) no-repeat center center scroll;
 }
 
 .drawings-c {
-	background: url(images/photo_9.jpg) no-repeat center center scroll;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(images/photo_9.jpg) no-repeat center center scroll;
 }
+
+.drawings-h:hover {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(images/photo_7.jpg) no-repeat center center scroll;
+}
+
+.renders:hover{
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(images/photo_5.jpg) no-repeat center center scroll;
+}
+
+.models:hover {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(images/photo_1.jpg) no-repeat center center scroll;
+}
+
+.diagrams:hover {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(images/photo_8.png) no-repeat center center scroll;
+}
+
+.drawings-c:hover {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(images/photo_9.jpg) no-repeat center center scroll;
+}
+
+.me{
+	margin-top: 20px;
+	float: right;
+}
+
+.text-vertical-center h2 {
+    margin: 0;
+    clear: both;
+    padding-top: 120px;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+
