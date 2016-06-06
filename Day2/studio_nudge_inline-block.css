@@ -34,10 +34,45 @@
 }
 
 .large-photo {
-	width: 1176px; 
+	background-image: url('images/lake.jpg');
+	width: 1176px;
+	height: 701px; 
 	margin: auto; 
-	padding-bottom: 10px; 
+	border-bottom: 10px solid white; 
 }
+
+/*.image-detail {
+	position: relative;
+	
+	background-repeat: cover;
+	width: 1176px;
+	height: 701px; 
+	visibility: visible;
+}*/
+.large-photo:hover .hoverblock {
+	visibility: visible;
+	background-color: white;
+	opacity: 0.5;
+}
+
+.hoverblock {
+	visibility: hidden;
+	width: 1146px; 
+	height: 671px; 
+	background-color: white;
+	opacity: 0.5;
+	margin-left: 20px;
+	text-align: center;
+	margin: auto;
+	margin-top: 14px;
+}
+
+.hover-text {
+	text-align: center;
+	padding-top: 250px;
+}
+
+
 
 .photo2 {
 	display: inline-block;
