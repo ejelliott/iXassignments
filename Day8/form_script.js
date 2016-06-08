@@ -13,15 +13,15 @@ if(phoneTest.length !== 3) {
 	console.log("no");
 	$("#test1").text("no");
 }
-else if(phoneTest[0].length !== 3) {
+else if((phoneTest[0].length !== 3)||(phoneTest[0] !== NaN)) {
 	console.log("no");
 	$("#test1").text("no");
 }
-else if(phoneTest[1].length !== 3) {
+else if((phoneTest[1].length !== 3)||(phoneTest[1] !== NaN)) {
 	console.log("no");
 	$("#test1").text("no");
 }
-else if(phoneTest[2].length !== 4) {
+else if((phoneTest[2].length !== 4)||(phoneTest[2] !== NaN)) {
 	console.log("no");
 	$("#test1").text("no");
 }
