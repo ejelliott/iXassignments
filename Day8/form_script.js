@@ -8,21 +8,22 @@ $(document).ready(function() {
 function phoneValidator(phoneNum) {
 	// console.log("testgood");
 //check that phone number is in xxx-xxx-xxxx
-var phoneTest = phoneNum.split('-');;
+var phoneTest = phoneNum.split('-');
+console.log(phoneTest);
 if(phoneTest.length !== 3) {
-	console.log("no");
+	console.log("no1");
 	$("#test1").text("no");
 }
-else if((phoneTest[0].length !== 3)||(phoneTest[0] !== NaN)) {
-	console.log("no");
+else if((phoneTest[0].length !== 3)||(phoneTest[0] === NaN)) {
+	console.log("no2");
 	$("#test1").text("no");
 }
-else if((phoneTest[1].length !== 3)||(phoneTest[1] !== NaN)) {
-	console.log("no");
+else if((phoneTest[1].length !== 3)||(phoneTest[1] === NaN)) {
+	console.log("no3");
 	$("#test1").text("no");
 }
-else if((phoneTest[2].length !== 4)||(phoneTest[2] !== NaN)) {
-	console.log("no");
+else if((phoneTest[2].length !== 4)||(phoneTest[2] === NaN)) {
+	console.log("no4");
 	$("#test1").text("no");
 }
 else {
