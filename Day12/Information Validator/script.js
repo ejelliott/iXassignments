@@ -5,6 +5,17 @@ app.controller("FormCtrl", function($scope){
 	$scope.count = 0;
 	$scope.thanks = "Thank you for submitting your information";
 
+	$scope.inputType = 'password';
+
+	$scope.showPassword = function () {
+		if($scope.inputType == 'password') {
+			$scope.inputType = 'text';
+		}
+		else {
+			$scope.inputType = 'password';
+		}
+	}
+
 	$scope.action = function () {
 		// console.log($scope.name);
 		// console.log($scope.phone);

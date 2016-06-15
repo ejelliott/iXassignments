@@ -33,7 +33,7 @@
 					<br>
 					Email:<input type="text" placeholder="xxx@xxx.xx" ng-model="email" ng-style="myStyleEmail">
 					<br>
-					Password:<input type="PASSWORD" name="password" placeholder="at least 6 characters" ng-model="password" ng-style="myStyleP">
+					Password:<input type="{{inputType}}" name="password" placeholder="at least 6 characters" ng-model="password" ng-style="myStyleP"><button ng-click="showPassword()">Show Password</button>
 					<br>
 					Confirm Password:<input type="PASSWORD" placeholder="at least 6 characters" ng-model="passwordR" ng-style="myStylePR">
 				</form>
