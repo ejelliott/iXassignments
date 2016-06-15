@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 
-	<link rel="stylesheet" type="style/css" href="./style.css">
-
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="./style.css">
 
 	<!--angular-->
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
@@ -27,17 +27,17 @@
 				</div>
 				<form ng-hide="count==10">
 					<br>
-					Name:<input type="text" placeholder="Name" ng-model="name">
+					Name:<input type="text" placeholder="Name" ng-model="name" ng-style="myStyleName">
 					<br>
-					Phone Number:<input type="text" placeholder="XXX-XXX-XXXX" ng-model="phone">
+					Phone Number:<input type="text" placeholder="XXX-XXX-XXXX" ng-model="phone" ng-style="myStylePhone">
 					<br>
-					Email:<input type="text" placeholder="xxx@xxx.xx" ng-model="email">
+					Email:<input type="text" placeholder="xxx@xxx.xx" ng-model="email" ng-style="myStyleEmail">
 					<br>
-					Password:<input type="PASSWORD" name="password" placeholder="at least 6 characters" ng-model="password">
+					Password:<input type="PASSWORD" name="password" placeholder="at least 6 characters" ng-model="password" ng-style="myStyleP">
 					<br>
-					Confirm Password:<input type="PASSWORD" placeholder="at least 6 characters" ng-model="passwordR">
+					Confirm Password:<input type="PASSWORD" placeholder="at least 6 characters" ng-model="passwordR" ng-style="myStylePR">
 				</form>
-				<button ng-click="action()" ng-hide="count==10">Submit</button>
+				<button ng-click="action(); myStyle={'border-color':'red'}" ng-hide="count==10">Submit</button>
 			</div>
 		</div>
 	</div>
