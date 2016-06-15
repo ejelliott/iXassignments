@@ -6,13 +6,16 @@ app.controller("FormCtrl", function($scope){
 	$scope.thanks = "Thank you for submitting your information";
 
 	$scope.inputType = 'password';
+	$scope.pShow = 'Show Password';
 
 	$scope.showPassword = function () {
 		if($scope.inputType == 'password') {
 			$scope.inputType = 'text';
+			$scope.pShow = 'Hide Password';
 		}
 		else {
 			$scope.inputType = 'password';
+			$scope.pShow = 'Show Password';
 		}
 	}
 
