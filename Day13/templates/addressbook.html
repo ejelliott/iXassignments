@@ -1,0 +1,20 @@
+<div ng-controller="AddressCtrl">
+<div class="display" ng-repeat="warning in warnings">
+	{{warning}}
+</div>
+<div ng-show="count==2" ng-model="thanks">
+	{{thanks}}
+</div>
+<form>
+	Name:<input type="text" placeholder="Name" ng-model="name">
+	<br>
+	Phone Number:<input type="text" placeholder="XXX-XXX-XXXX" ng-model="phone">
+	<br>
+</form>
+<button ng-click="action()" ng-hide="count==10">Submit</button>
+<br>
+Search:<input type="text" placeholder="Search for contact" ng-model="searchBox">
+<ul class="unstyled">
+	<li ng-repeat="fullContact in fullContacts | filter: searchBox">{{fullContact}}</li>
+</ul>
+</div>

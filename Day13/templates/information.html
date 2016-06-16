@@ -1,0 +1,22 @@
+<div ng-controller="InfoCtrl">
+	<div class="display" ng-repeat="warning in warnings">
+		{{warning}}
+	</div>
+	<div ng-show="count==10" ng-model="thanks">
+		{{thanks}}
+		<a href="#/address">to address book</a>
+	</div>
+	<form ng-hide="count==10">
+		<br>
+		Name:<input type="text" placeholder="Name" ng-model="name" ng-style="myStyleName">
+		<br>
+		Phone Number:<input type="text" placeholder="XXX-XXX-XXXX" ng-model="phone" ng-style="myStylePhone">
+		<br>
+		Email:<input type="text" placeholder="xxx@xxx.xx" ng-model="email" ng-style="myStyleEmail">
+		<br>
+		Password:<input type="{{inputType}}" name="password" placeholder="at least 6 characters" ng-model="password" ng-style="myStyleP"><button ng-click="showPassword()" ng-model="pShow">{{pShow}}</button>
+		<br>
+		Confirm Password:<input type="PASSWORD" placeholder="at least 6 characters" ng-model="passwordR" ng-style="myStylePR">
+	</form>
+	<button ng-click="action(); myStyle={'border-color':'red'}" ng-hide="count==10">Submit</button>
+</div>
