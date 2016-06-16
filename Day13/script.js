@@ -9,7 +9,7 @@ app.config(function($routeProvider) {
   })
 });
 
-app.controller("InfoCtrl", function($scope) {
+app.controller("InfoCtrl", function($scope, $window) {
 	$scope.count = 0;
 	$scope.thanks = "Thank you for submitting your information";
 
@@ -199,7 +199,10 @@ app.controller("InfoCtrl", function($scope) {
 			}
 			
 		}
-		// console.log($scope.myStyle);
+		if($scope.count == 10){
+			$window.location.href = '#/address';
+
+		}
 
 	}
 });
