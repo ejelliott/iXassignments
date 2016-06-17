@@ -1,0 +1,25 @@
+<div ng-controller="FeedCtrl">
+	<h3> The Props Feed </h3>
+	<div class="pageTab">
+		<a href="#/personal">View my props</a>
+		<button ng-click="loadData()" id="refresh" > Refresh Feed </button>
+	</div>
+	<div ng-model="errorM" id="errorM" ng-show="eM">{{errorM}}
+	</div>
+	<input ng-model="newProp.text" id="space" type="text" placeholder="Put your compliment here">
+	<br>
+	<select ng-model="newProp.receiver" ng-options="x as x.first_name for x in brus">
+	</select>
+	<button ng-click="validate()"> Validate &amp Send </button>
+	<div class="feed" ng-repeat="prop in props">
+		{{prop.text}}
+		<div class="col-md-12  col-md-offset-0" id="feedInfo">
+			<div id="name" class="col-md-6" >
+				to: {{prop.receiver.first_name}}
+			</div>
+			<div id="positive" class="col-md-6">
+				score: {{prop.positivity_score}}
+			</div>
+		</div>
+	</div>
+</div>

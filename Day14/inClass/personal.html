@@ -1,0 +1,14 @@
+<div ng-controller="MeCtrl">
+<a href="#/">Back to Feed</a>
+	<div class="feed" ng-repeat="prop in props">
+		{{prop.text}}
+		<div class="col-md-12  col-md-offset-0" id="feedInfo">
+			<div id="name" class="col-md-6" >
+				to: {{prop.receiver.first_name}}
+			</div>
+			<div id="positive" class="col-md-6">
+				score: {{prop.positivity_score}}
+			</div>
+		</div>
+	</div>
+</div>
